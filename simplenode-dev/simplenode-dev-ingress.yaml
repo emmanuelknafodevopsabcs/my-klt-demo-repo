@@ -4,7 +4,7 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - host: simplenode-dev.domain.placeholder
+    - host: simplenode-dev.k3s.devopsabcs.com
       http:
         paths:
           - path: /
