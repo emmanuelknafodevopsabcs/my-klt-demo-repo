@@ -212,12 +212,12 @@ function print_info {
 
 # now lets go through all the steps
 install_tools
-install_k3s
+#install_k3s
 set_ingress_domain
-install_oneagent
+#install_oneagent
 install_klt
 install_observabilty
 install_argocd
-setup_slacknotification
+#setup_slacknotification
 create_argocdapp
 print_info
